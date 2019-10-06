@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    aaptOptions {
+        noCompress 'dat'
+    }
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 28
+        applicationId "com.android.inputmethod.pinyin"
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-Wall"
+            }
+        }
+
+
+        //以下是为了找到android.os.SystemProperties这个隐藏的类
+        //系统androidSDK环境变量
+        String SDK_DIR = System.getenv("ANDROID_SDK_HOME")
+        //("TAG", "SDK_DIR = " + SDK_DIR );
+        if(SDK_DIR == null) {
+            Properties props = new Properties()
+            props.load(new FileInputStream(project.rootProject.file("local.properties")))
+            SDK_DIR = props.get('sdk.dir');
+        }
+        dependencies {
+            compileOnly files("${SDK_DIR}/platforms/android-22/data/layoutlib.jar")
+        }
+        //以上是为了找到android.os.SystemProperties这个隐藏的类
+//        ndk {
+//            abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
+//        }
+//        compileOptions {
+//            sourceCompatibility JavaVersion.VERSION_1_7
+//            targetCompatibility JavaVersion.VERSION_1_7
+//        }
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path 'src/main/cpp/CMakeLists.txt'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}
+
+dependencies {
+}

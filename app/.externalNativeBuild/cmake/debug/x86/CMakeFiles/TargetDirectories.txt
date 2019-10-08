@@ -1,4 +1,4 @@
-D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/jni_pinyinime.dir
-D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/engine.dir
-D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
-D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/jni_pinyinime.dir
+D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/engine.dir
+D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

@@ -1,15 +1,15 @@
-Executable : D:\developmentTool\Android\sdk\cmake\3.6.4111459\bin\cmake.exe
+Executable : C:\Users\User\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
 arguments : 
--HD:\project\AndroidProjects\PinyinIME\app\src\main\cpp
--BD:\project\AndroidProjects\PinyinIME\app\.externalNativeBuild\cmake\release\x86_64
+-HD:\github\PinyinIME\app\src\main\cpp
+-BD:\github\PinyinIME\app\.externalNativeBuild\cmake\release\x86_64
 -DANDROID_ABI=x86_64
 -DANDROID_PLATFORM=android-19
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\project\AndroidProjects\PinyinIME\app\build\intermediates\cmake\release\obj\x86_64
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\github\PinyinIME\app\build\intermediates\cmake\release\obj\x86_64
 -DCMAKE_BUILD_TYPE=Release
--DANDROID_NDK=D:\developmentTool\Android\sdk\ndk-bundle
+-DANDROID_NDK=C:\Users\User\AppData\Local\Android\Sdk\ndk-bundle
 -DCMAKE_CXX_FLAGS=-Wall
--DCMAKE_TOOLCHAIN_FILE=D:\developmentTool\Android\sdk\ndk-bundle\build\cmake\android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=D:\developmentTool\Android\sdk\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\User\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\User\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
 -GAndroid Gradle - Ninja
 jvmArgs : 
 

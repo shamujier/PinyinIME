@@ -1,12 +1,9 @@
 
 {
-	"buildFiles" : 
-	[
-		"D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/CMakeLists.txt"
-	],
+	"buildFiles" : [ "D:/github/PinyinIME/app/src/main/cpp/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"D:\\developmentTool\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\project\\AndroidProjects\\PinyinIME\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+		"C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\github\\PinyinIME\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -15,207 +12,207 @@
 		{
 			"abi" : "armeabi-v7a",
 			"artifactName" : "engine",
-			"buildCommand" : "D:\\developmentTool\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\project\\AndroidProjects\\PinyinIME\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target engine",
+			"buildCommand" : "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\github\\PinyinIME\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target engine",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/dictbuilder.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/dictbuilder.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/dictlist.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/dictlist.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/dicttrie.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/dicttrie.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/lpicache.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/lpicache.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/mystdlib.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/mystdlib.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/ngram.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/ngram.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/searchutility.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/searchutility.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/spellingtable.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/spellingtable.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/spellingtrie.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/spellingtrie.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/splparser.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/splparser.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/utf16char.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/utf16char.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/utf16reader.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/utf16reader.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				}
 			],
-			"output" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a/libengine.a",
-			"toolchain" : "768993073"
+			"output" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a/libengine.a",
+			"toolchain" : "2173065719"
 		},
 		"jni_pinyinime-Debug-armeabi-v7a" : 
 		{
 			"abi" : "armeabi-v7a",
 			"artifactName" : "jni_pinyinime",
-			"buildCommand" : "D:\\developmentTool\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\project\\AndroidProjects\\PinyinIME\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target jni_pinyinime",
+			"buildCommand" : "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\github\\PinyinIME\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target jni_pinyinime",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/android/com_android_inputmethod_pinyin_PinyinDecoderService.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/android/com_android_inputmethod_pinyin_PinyinDecoderService.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/dictbuilder.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/dictbuilder.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/dictlist.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/dictlist.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/dicttrie.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/dicttrie.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/lpicache.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/lpicache.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/matrixsearch.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/matrixsearch.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/mystdlib.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/mystdlib.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/ngram.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/ngram.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/pinyinime.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/pinyinime.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/searchutility.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/searchutility.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/spellingtable.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/spellingtable.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/spellingtrie.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/spellingtrie.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/splparser.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/splparser.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/userdict.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/userdict.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/utf16char.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/utf16char.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/utf16reader.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/utf16reader.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\project\\AndroidProjects\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "D:/project/AndroidProjects/PinyinIME/app/src/main/cpp/share/sync.cpp",
-					"workingDirectory" : "D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djni_pinyinime_EXPORTS -ID:\\github\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/github/PinyinIME/app/src/main/cpp/share/sync.cpp",
+					"workingDirectory" : "D:/github/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				}
 			],
-			"output" : "D:/project/AndroidProjects/PinyinIME/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libjni_pinyinime.so",
-			"toolchain" : "768993073"
+			"output" : "D:/github/PinyinIME/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libjni_pinyinime.so",
+			"toolchain" : "2173065719"
 		}
 	},
 	"toolchains" : 
 	{
-		"768993073" : 
+		"2173065719" : 
 		{
-			"cCompilerExecutable" : "D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "D:/developmentTool/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/User/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }

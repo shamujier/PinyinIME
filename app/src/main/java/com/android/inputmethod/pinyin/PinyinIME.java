@@ -1203,7 +1203,7 @@ public class PinyinIME extends InputMethodService {
     public void showOptionsMenu() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setCancelable(true);
-        builder.setIcon(R.drawable.app_icon);
+        builder.setIcon(R.drawable.app_icon_copy);
         builder.setNegativeButton(android.R.string.cancel, null);
         CharSequence itemSettings = getString(R.string.ime_settings_activity_name);
         CharSequence itemInputMethod = getString(com.android.internal.R.string.inputMethod);

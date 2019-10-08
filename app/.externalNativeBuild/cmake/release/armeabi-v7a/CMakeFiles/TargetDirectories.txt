@@ -1,4 +1,4 @@
-D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/jni_pinyinime.dir
-D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/engine.dir
-D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
-D:/project/AndroidProjects/PinyinIME/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+D:/github/PinyinIME/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/jni_pinyinime.dir
+D:/github/PinyinIME/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/engine.dir
+D:/github/PinyinIME/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/github/PinyinIME/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
